@@ -1,5 +1,7 @@
 # AnimatedSpriteProgressBar
-Custom ProgressBar for Android
+This Android library gives you custom ProgressBar made of your own sprites.
+
+![Example](https://cloud.githubusercontent.com/assets/12033349/12423642/0e58ed62-bed5-11e5-908a-1653231a87af.gif)
 
 ### Usage
 * define your sprites array in values/arrays.xml:
