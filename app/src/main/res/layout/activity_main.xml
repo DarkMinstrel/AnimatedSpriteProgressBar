@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.darkminstrel.aspb_example.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <com.darkminstrel.aspb.AnimatedSpriteProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:sprites="@array/progress_array"
+            app:rotations="4"
+            app:duration="3000"
+            app:adapter="trapeze"
+            app:interpolator="accelerate_decelerate"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="app:rotations=4\napp:duration=3000\napp:adapter='trapeze'\napp:interpolator='accelerate_decelerate'"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <com.darkminstrel.aspb.AnimatedSpriteProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:sprites="@array/progress_array"
+            app:rotations="-1"
+            app:duration="1000"
+            app:adapter="triangle"
+            app:interpolator="linear"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="app:rotations=-1\napp:duration=1000\napp:adapter='triangle'\napp:interpolator='linear'"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <com.darkminstrel.aspb.AnimatedSpriteProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:sprites="@array/progress_array"
+            app:rotations="0"
+            app:duration="1000"
+            app:adapter="square"
+            app:interpolator="linear"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="app:rotations=0\napp:duration=1000\napp:adapter='square'\napp:interpolator='linear'"/>
+    </LinearLayout>
+
+
+</LinearLayout>
