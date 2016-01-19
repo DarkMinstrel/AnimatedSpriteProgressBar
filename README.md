@@ -31,7 +31,7 @@ Maven:
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <integer-array name="progress_array">
+    <array name="progress_array">
         <item>@drawable/progress0</item>
         <item>@drawable/progress1</item>
         <item>@drawable/progress2</item>
@@ -42,7 +42,7 @@ Maven:
         <item>@drawable/progress7</item>
         <item>@drawable/progress8</item>
         <item>@drawable/progress9</item>
-    </integer-array>
+    </array>
 
 </resources>
 ```
