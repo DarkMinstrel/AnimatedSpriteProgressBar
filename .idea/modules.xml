@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ASPB.iml" filepath="$PROJECT_DIR$/ASPB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnimatedSpriteProgressBar.iml" filepath="$PROJECT_DIR$/AnimatedSpriteProgressBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/animatedspriteprogressbar/animatedspriteprogressbar.iml" filepath="$PROJECT_DIR$/animatedspriteprogressbar/animatedspriteprogressbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
